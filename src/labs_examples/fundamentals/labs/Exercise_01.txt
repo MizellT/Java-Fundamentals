@@ -23,3 +23,97 @@ Example Output:
     2. mkdir Terminal_testing
     3. //...
 
+Commands:
+    1. cd ~/Documents/CodingNomads/labs/online-java-fundamentals/
+    2. mkdir Terminal_testing
+    3.
+        a. touch example_1 example_2 example_3
+        b. pwd
+        c. ls -al
+    5. mkdir A_New_Folder
+    6. cp example_1.txt A_New_Folder
+    7. mv example_2.txt A_New_Folder
+    8.
+        a. rm example_3.txt
+        b. rm -r A_New_Folder
+    9.
+        a.
+            1. vim example_1
+            2. I
+            3. "I like to practice coding by the water"
+            4. esc
+            5. :wq
+        b. cat example_1
+
+
+Output:
+    1. online-java-fundamentals mizty$
+    2. Mizell-Tyler:online-java-fundamentals mizty$ ls -al
+       total 24
+       drwxr-xr-x@ 10 mizty  staff   320 Nov 21 11:20 .
+       drwxr-xr-x@  3 mizty  staff    96 Nov 16 17:16 ..
+       drwxr-xr-x@ 13 mizty  staff   416 Nov 20 21:51 .git
+       -rwxr-xr-x@  1 mizty  staff    17 Nov 16 17:16 .gitignore
+       drwxr-xr-x@  7 mizty  staff   224 Nov 21 11:19 .idea
+       -rwxr-xr-x@  1 mizty  staff  2201 Nov 18 10:39 README.md
+       drwxr-xr-x@  2 mizty  staff    64 Nov 21 11:20 Terminal_testing
+       -rw-r--r--@  1 mizty  staff   423 Nov 20 21:09 online-java-fundamentals.iml
+       drwxr-xr-x@  3 mizty  staff    96 Nov 20 21:28 out
+       drwxr-xr-x@  5 mizty  staff   160 Nov 16 17:16 src
+    3.
+        a. Mizell-Tyler:Terminal_testing mizty$ ls -al
+           total 0
+           drwxr-xr-x@  5 mizty  staff  160 Nov 21 11:31 .
+           drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_1.txt
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_2.txt
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_3.txt
+        b. /Users/mizty/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing
+        c. Mizell-Tyler:Terminal_testing mizty$ ls -al
+           total 0
+           drwxr-xr-x@  5 mizty  staff  160 Nov 21 11:31 .
+           drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_1.txt
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_2.txt
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_3.txt
+    5. Mizell-Tyler:Terminal_testing mizty$ ls -al
+       total 0
+       drwxr-xr-x@  8 mizty  staff  256 Nov 21 11:42 .
+       drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+       drwxr-xr-x@  2 mizty  staff   64 Nov 21 11:42 A_New_Folder
+       -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_1.txt
+       -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_2.txt
+       -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_3.txt
+    6. Mizell-Tyler:A_New_Folder mizty$ ls -al
+       total 0
+       drwxr-xr-x@ 3 mizty  staff   96 Nov 21 11:45 .
+       drwxr-xr-x@ 8 mizty  staff  256 Nov 21 11:42 ..
+       -rw-r--r--@ 1 mizty  staff    0 Nov 21 11:45 example_1.txt
+    7. Mizell-Tyler:Terminal_testing mizty$ ls -al
+       total 0
+       drwxr-xr-x@  7 mizty  staff  224 Nov 21 11:57 .
+       drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+       drwxr-xr-x@  4 mizty  staff  128 Nov 21 11:57 A_New_Folder
+       -rw-r--r--@  1 mizty  staff    0 Nov 21 11:56 example_1.txt
+       -rw-r--r--@  1 mizty  staff    0 Nov 21 11:31 example_3.txt
+
+       Mizell-Tyler:A_New_Folder mizty$ ls -al
+       total 0
+       drwxr-xr-x@ 4 mizty  staff  128 Nov 21 11:57 .
+       drwxr-xr-x@ 7 mizty  staff  224 Nov 21 11:57 ..
+       -rw-r--r--@ 1 mizty  staff    0 Nov 21 11:31 example_1.txt
+       -rw-r--r--@ 1 mizty  staff    0 Nov 21 11:31 example_2.txt
+    8.
+        a. Mizell-Tyler:Terminal_testing mizty$ ls -al
+           total 0
+           drwxr-xr-x@  6 mizty  staff  192 Nov 21 12:04 .
+           drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+           drwxr-xr-x@  4 mizty  staff  128 Nov 21 11:57 A_New_Folder
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:56 example_1.txt
+        b. Mizell-Tyler:Terminal_testing mizty$ ls -al
+           total 0
+           drwxr-xr-x@  5 mizty  staff  160 Nov 21 12:11 .
+           drwxr-xr-x@ 10 mizty  staff  320 Nov 21 11:20 ..
+           -rw-r--r--@  1 mizty  staff    0 Nov 21 11:56 example_1.txt
+    9.
+        b. I like to practice coding by the water.
