@@ -32,3 +32,19 @@ Cloning repository from Github
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+Commands
+    1. mkdir git_practice
+    2.
+        a. git init
+        b. touch a_new_file
+        c. git add a_new_file
+        d. git commit -m "git practice for a new file"
+        c. git branch -M main
+           git remote add Lola https://github.com/MizellT/git_practice.git
+           git push -u Lola main
+        e.
+            i. touch a_new_file_2
+            ii. git add a_new_file_2
+            iii. git commit -m "git practice for committing a file"
+            iv. git push
